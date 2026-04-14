@@ -17,9 +17,9 @@ import {
 } from 'lucide-react';
 
 const businessFeatures = [
-  { icon: Cpu, title: 'Embedded Storage', desc: 'Silicon Motion is the global leader in developing NAND flash controller technology for SSDs.', link: 'https://www.siliconmotion.com' },
-  { icon: Microscope, title: 'Embedded DRAM', desc: 'Longsys is engaged in the R&D, design, and sales of industrial DRAM solutions.', link: 'https://www.longsys.com' },
-  { icon: Globe2, title: 'Power Device', desc: 'CET specializes in designing and developing high-current, high-power, and high-density power semiconductor.', link: 'https://cet-mos.com' },
+  { icon: Cpu, title: 'Embedded Storage', desc: <><span className="font-semibold text-base text-blue-600">Silicon Motion</span> is the global leader in developing NAND flash controller technology for SSDs.</>, link: 'https://www.siliconmotion.com' },
+  { icon: Globe2, title: 'Power Device', desc: <><span className="font-semibold text-base text-blue-600">CET</span> specializes in designing and developing high-current, high-power, and high-density power semiconductor.</>, link: 'https://cet-mos.com' },
+  { icon: Microscope, title: 'Embedded DRAM', desc: <><span className="font-semibold text-base text-blue-600">Longsys</span> is engaged in the R&D, design, and sales of industrial DRAM solutions.</>, link: 'https://www.longsys.com' },
 ];
 
 const aboutLinks = [
